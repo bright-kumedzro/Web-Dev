@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WELCOME TO THE NSS CONTACT PAGE</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+
+    <div class="wrapper">
+
+        <div class="header">
+            <div class="logo">
+                <img src="nss logo.png" alt="NSS LOGO" img-id="naspa logo">
+                <p>National Service Secretariat Ghana</p>
+            </div>
+            <nav>
+                    <ul>
+                        <li><a href="">HOME</a></li>
+                        <li><a href="">ABOUT</a></li>
+                        <li><a href="">APPLICATIONS</a></li>
+                        <li><a href="">MEDIA</a></li>
+                        <li><a href="">PROJECTS</a></li>
+                        <li><a href="">STAFF DETAIL</a></li>
+                        <li><a href="">CONTACT US</a></li>
+                    </ul>
+            </nav>
+        </div> 
+    </div>
+
+    <div class="main">
+        <div class="caption">
+            <h1>National Service Secretariat Form</h1>
+        </div>
+        <form action="const packageName = require('packageName');">
+            <section class="A">
+             <fieldset>
+                <legend>Section A</legend>
+                
+                <label for="Passport Picture">Passport Sized Picture/Image(150 x 200px)</label>
+                <input type="image" id="Passport Picture" name="Passport Picture"><br>
+
+                <label for="NSS Num">NSS Number</label>
+                <input type="number" id="NSS Num" name="NSS Num"><br>
+
+                <label for="Pin">Pin</label>
+                <input type="password" id="Pin" name="Pin"><br>
+
+                <label for="E-zwich">E-zwich</label>
+                <input type="number" id="E-zwich" name="E-zwich"><br>
+
+                <label for="SSNIT Num">SSNIT Number</label>
+                <input type="number" id="SSNIT Num" name="SSNIT Num"><br>
+
+                <label for="National Id">National ID Number</label>
+                <input type="number" id="National Id" name="National Id"><br>
+             </fieldset>
+            </section>
+
+            <section class="B">
+                <fieldset>
+                    <legend>Section B</legend>
+                <label for="Surname">Surname</label><br>
+                <input type="text" id="Surname" name="Surname"><br>
+
+                <label for="first name">Given Name</label><br>
+                <input type="text" id="first name" name="first name"><br>
+
+                <label for="DOB">Date Of Birth</label><br>
+                <input type="date" id="DOB" name="DOB"><br>
+
+                <label for="Grad Inst">Institution Graduated From</label><br>
+                <input type="text" id="Grad Inst" name="Grad Inst"><br>
+
+                <label for="Programme">Programme of Study</label><br>
+                <input type="text" id="Programme" name="Programme"><br>
+
+                <label for="Residence">Residential Address</label><br>
+                <input type="address" id="Residence" name="Residence"><br>
+
+                <label for="Contact">Contact Address</label><br>
+                <input type="address" id="Contact" name="Contact"><br>
+
+                <label for="E-mail">E-mail</label><br>
+                <input type="email" id="E-mail" name="E-mail"><br>
+
+                <label for="Kin">Next Of Kin</label><br>
+                <input type="text" id="Kin" name="Kin"><br>
+
+                <label for="Kin's E-mail">Next Of Kin's E-mail</label><br>
+                <input type="email" id="Kin's E-mail" name="Kin's E-mail"><br>
+            </fieldset>
+
+            </section>
+
+            <section class="C">
+                <fieldset>
+                    <legend>Section C</legend>
+                <label for="Region Preference">Region you would like to do your service at</label><br>
+                <select name="Region Preference">
+                    <option value="default">---Select a Region---</option>
+                    <option value="1">Greater Accra Region</option>
+                    <option value="2">Brong Ahafo Region</option>
+                    <option value="3">Eastern Region</option>
+                    <option value="4">Western Region</option>
+                    <option value="5">Upper East Region</option>
+                    <option value="6">Upper West Region</option>
+                    <option value="7">Northern Region</option>
+                    <option value="8">Central Region</option>
+                    <option value="9">Ashanti Region</option>
+                    <option value="10">Volta Region</option><br>
+                </select>
+                
+                <label for="Sector Preference">Sector you would like to do your service at</label><br>
+                <input type="text" id="Sector Preference" name="Sector Preference"><br>
+
+                <button type="Submit">Submit</button>
+                <button type="Reset">Reset</button>
+
+            </fieldset>
+            </section>
+
+        </form>
+    </div>
+
+    <div id="footer">
+        Website designed by Bright Kumedzro<br>
+        National Service Secretariat © 2022
+
+    </div>
+    
+</body>
+</html>
